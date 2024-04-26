@@ -1,0 +1,184 @@
+/* Write some CSS below */
+body {
+    margin : 0;
+    font-family:"Roboto";
+}
+.banner {
+    background-image : url('images/backgroundrose.jpg');
+    background-size: cover;
+    color : #2E2A28;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 75px;
+    background-position : center;
+ 
+}
+.container-start{
+    margin : 0px auto;
+    width: 730px;    
+}
+.banner .logo-zayland {
+    width: 15%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 30px;
+} 
+.banner h1{
+    font-size: 40px;
+    Font-weight: 600;
+    margin-top: 0;
+}
+ 
+.banner p {
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom : 40px;
+    text-align: center;
+}
+ 
+.btn-pink {
+    text-decoration: none;
+    border-radius : 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 15px 25px;
+    color : white;
+    font-weight: 600;
+    Font-size: 24px;
+    background-color: #5C5550;
+}
+
+.btn-pink:hover {
+    background-color:#fda4af;
+}
+.card-section {
+    background-color: white;
+}
+.container {
+    margin : 20px auto;
+    width: 1050px;    
+}
+ 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+.card-white {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 20px;
+    margin : 6px;
+    border-radius: 14px;
+    transition: all 0.55s; 
+    background-color: #EFDDD1;
+    width: 100%;
+}
+.card-white:hover {
+    box-shadow: 0 10px 20px rgba(133,58,58,0.4); 
+    transform: scale(1.1); 
+}
+
+.card-white h3 {
+    text-align: center;
+}
+.fa-sun {
+    color: darkgoldenrod;
+}
+.fa-fire {
+    color: #e11d48;
+}
+.fa-briefcase{
+    color: #422006;
+}
+.card-white img {
+    border-radius: 4px;
+    width : 100%;
+    height: 200px;
+    margin : 6px;
+}
+ 
+/* Footer */
+.footer {
+    background-color: #2E2A28;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.newsletter {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #EFDDD1; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333; 
+}
+
+form input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #5C5550; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fda4af; 
+}
+.List-inline          {
+        
+    list-style-type : none;
+    padding-left: 0;
+}
+
+.List-inline li {
+display: inline;
+}             
+
+.List-inline li i {
+    
+    font-size : 40px;
+    color: white;
+    margin: 0 5px;
+}
+                    
+.List-inline li i:hover{
+opacity: 0.7;
+}
+
+@media (max-width: 950px){
+    .cards {
+      grid-template-columns: 1fr 1fr;
+  }  
+  .container {
+      width: 600px;    
+  }
+  }
+
+@media (max-width: 650px){
+    .container {
+        width: 200px;    
+    }
+    .card-white h3 {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
